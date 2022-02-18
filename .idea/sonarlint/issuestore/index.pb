@@ -9,3 +9,7 @@ f
 demo/mvnw.cmd,4\3\437e70af9793a466618b92893f8c7d9117237271
 ^
 .demo/src/main/resources/application.properties,b\d\bdf594d855e1d9326b9686f862c1fa6049f75420
+<
+demo/pom.xml,f\1\f1bf400bc0784549511ea07030d3a798eb8c0511
+j
+:demo/src/main/java/com/sofka/demo/models/UsuarioModel.java,7\d\7d8defc202f5fc8b57d6fec1f091aab5e40738d0
