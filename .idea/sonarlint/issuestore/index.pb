@@ -7,3 +7,5 @@ f
 demo/HELP.md,b\7\b7c4df5db6951c0f915fd941db79486880a8d326
 =
 demo/mvnw.cmd,4\3\437e70af9793a466618b92893f8c7d9117237271
+^
+.demo/src/main/resources/application.properties,b\d\bdf594d855e1d9326b9686f862c1fa6049f75420
