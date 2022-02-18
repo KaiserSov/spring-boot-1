@@ -14,7 +14,7 @@ public class UsuarioModel {
     private String nombre;
     private String email;
     private Integer prioridades;
-    private String telefono;
+    private Integer telefono;
 
     public void setPrioridades(Integer prioridades) {
         this.prioridades = prioridades;
@@ -49,11 +49,11 @@ public class UsuarioModel {
         this.nombre = nombre;
     }
 
-    public void setTelefono(String telefono) {
-        this.nombre = telefono;
+    public void setTelefono(Integer telefono) {
+        this.telefono = telefono;
     }
 
-    public String getTelefono() {
+    public Integer getTelefono() {
         return telefono;
     }
 }
