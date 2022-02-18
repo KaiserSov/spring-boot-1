@@ -19,4 +19,7 @@ public class UsuarioService {
     public UsuarioModel guardarUsuario(UsuarioModel usuario){
         return usuarioRepository.save(usuario);
     }
+    public UsuarioModel eliminarUsuario(UsuarioModel usuario){
+        return usuarioRepository.delete();
+    }
 }

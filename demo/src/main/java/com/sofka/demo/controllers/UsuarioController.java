@@ -22,4 +22,9 @@ public class UsuarioController {
     public UsuarioModel guardarUsuario(@RequestBody UsuarioModel usuario){
         return this.usuarioService.guardarUsuario(usuario);
     }
+
+    @DeleteMapping()
+    public UsuarioModel eliminarUsuario(@RequestBody UsuarioModel usuario){
+        return this.usuarioService.eliminarUsuario(usuario);
+    }
 }
