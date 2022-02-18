@@ -32,6 +32,7 @@ public class UsuarioModel {
         this.id = id;
     }
 
+    @Column(nullable=false, length = 50, unique = true)
     public String getEmail() {
         return email;
     }
